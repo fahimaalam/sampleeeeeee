@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Open+Sans:wght@300;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet"> 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!-- Theme CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Crowdme</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+  
+
+  <!--------------------- Navbar Start --------------------->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">OUR WORKS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#properties">PROPERTIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">FEATURED PROJECT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#community">COMMUNITY</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn btn-outline-success" type="submit">LOGIN</button>
+          </form>
+        </div>
+      </div>
+  </nav><!--------------------- Navbar End --------------------->
+
+  <!--------------------- Hero Start --------------------->
+  <section id="home" class="hero">
+    <div class="container-fluid">
+      <div class="row hero-overlay">
+        <div class="col-md-12 hero-header">
+          <h1>Intellectual Property has the Shelf Life</h1>
+          <h6>of a Banana.</h6>
+        </div>
+        <div class="col-md-12 hero-btn">
+          <button type="button" class="btn">Become a Member</button>
+        </div>
+      </div>
+    </div>
+  </section><!--------------------- Hero End ---------------------> 
+
+  <!--------------------- Our Work Start --------------------->
+  <section id="work" class="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 work-header">
+          <img src="img/ball.png" class="img-fluid">
+          <h2>OUR WORK IS THE PRESENTAION OF<br> OUR CAPABILITIES</h2>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br><br>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </div>
+       </div>
+      </div>
+  </section><!--------------------- Our Work End --------------------->
+
+  <!--------------------- PROPERTIES Start ---------------------> 
+  <section id="properties" class="properties">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 properties-header">
+           <button class="tablink" onclick="openPage('Home', this, '#ffffff')" id="defaultOpen"><span>1</span>Simple</button>
+           <button class="tablink" onclick="openPage('News', this, '#ffffff')"><span>2</span>Transperent</button>
+           <button class="tablink" onclick="openPage('Contact', this, '#ffffff')"><span>3</span>Collaborative</button>
+           <div class="blank"></div>
+            <div id="Home" class="tabcontent">
+              <div class="tabcontent-img">
+                <img src="img/glass.png" class="img-fluid tab-icons">
+              </div>
+              <div class="tabcontent-header">
+                <h3>Browse projects,like booking a hotel online!</h3>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+            <div id="News" class="tabcontent">
+              <div class="tabcontent-img">
+                <img src="img/bookshelf.png" class="img-fluid tab-icons">
+              </div>
+              <div class="tabcontent-header">
+                <h3>Browse projects,like booking a hotel online!</h3>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+
+            <div id="Contact" class="tabcontent">
+              <div class="tabcontent-img">
+                <img src="img/briefcase.png" class="img-fluid tab-icons">
+              </div>
+              <div class="tabcontent-header">
+                <h3>Browse projects,like booking a hotel online!</h3>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div> 
+        </div>
+       </div>
+      </div>
+  </section><!--------------------- PROPERTIES End --------------------->
+
+  <!--------------------- FEATURED PROJECT Start --------------------->
+  <section id="project" class="project">
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-6 project-one">
+            <div class="col-md-3 offset-md-3  project-img">
+              <img src="img/chair.png" class="img-fluid img-size">
+            </div>
+            <div class="col-md-6 project-text">
+              <h4>Find Properties</h4>
+              <p>Sign up browse the portfolio.your journey to becoming areal estate barons starts here.</p>
+              <button type="button" class="btn-project">Become a Member</button>
+            </div>
+          </div>
+          <div class="col-md-6 project-two">
+            <div class="col-md-3  project-img">
+              <img src="img/bag.png" class="img-fluid img-size">
+            </div>
+            <div class="col-md-6 project-text">
+              <h4>Find Properties</h4>
+              <p>Sign up browse the portfolio.your journey to becoming areal estate barons starts here.</p>
+              <button type="button" class="btn-project-two">Become a Member</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section><!--------------------- FEATURED PROJECT End --------------------->
+
+  <!--------------------- FEATURED PROJECT TWO Start --------------------->
+  <section id="project" class="form">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-7 offset-md-1 form-one">
+              <h5>Find Properties</h5>
+              <p>Brief details of new & listings,projects.To view full listings,you will be required to <br>sign up and become a member.</p>
+            </div>
+            <div class="col-md-4 form-two">
+             <button type="button" class="btn-form">Become a Member</button>
+          </div>
+        </div>
+      </div>
+  </section><!--------------------- FEATURED PROJECT TWO End --------------------->
+
+  <!--------------------- FEATURED PROJECT THREE Start --------------------->
+  <section id="project" class="offer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 offer-one">
+          <div class="card">
+            <img src="img/city.jpg" class="card-img-top img-fluid" alt="...">
+            <img src="img/n.png" class="card-img-new img-fluid" alt="...">
+            <button type="button" class="btn-offer">From GBP 3600</button>
+            <div class="card-body">
+              <h5 class="card-title">Tontario Tower,LONDON</h5>
+              <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. </p>
+            </div>
+           <div id="myProgress">
+              <div id="myBar"></div>
+            </div>
+            <button onclick="move()" class="pro-btn">Click Me</button> 
+              <p class="list-group-item">10% Funded <small>8 Days Left</small></p>
+            <div class="card-body">
+              <mark>See Projects Details</mark><i class="fa fa-play" aria-hidden="true" class="menu-icons"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/city.jpg" class="card-img-top img-fluid" alt="...">
+            <img src="img/n.png" class="card-img-new img-fluid" alt="...">
+            <button type="button" class="btn-offer">From GBP 3600</button>
+            <div class="card-body">
+              <h5 class="card-title">Tontario Tower,LONDON</h5>
+              <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. </p>
+            </div>
+           <div id="myProgress">
+              <div id="myBar"></div>
+            </div>
+            <button onclick="move()" class="pro-btn">Click Me</button> 
+              <p class="list-group-item">10% Funded <small>8 Days Left</small></p>
+            <div class="card-body">
+              <mark>See Projects Details</mark><i class="fa fa-play" aria-hidden="true" class="menu-icons"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/city.jpg" class="card-img-top img-fluid" alt="...">
+            <img src="img/n.png" class="card-img-new img-fluid" alt="...">
+            <button type="button" class="btn-offer">From GBP 3600</button>
+            <div class="card-body">
+              <h5 class="card-title">Tontario Tower,LONDON</h5>
+              <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. </p>
+            </div>
+           <div id="myProgress">
+              <div id="myBar"></div>
+            </div>
+            <button onclick="move()" class="pro-btn">Click Me</button> 
+              <p class="list-group-item">10% Funded <small>8 Days Left</small></p>
+            <div class="card-body">
+              <mark>See Projects Details</mark><i class="fa fa-play" aria-hidden="true" class="menu-icons"></i>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  </section><!--------------------- FEATURED PROJECT THREE End --------------------->
+
+
+  <!--------------------- Our CommunityStart --------------------->
+  <section id="community" class="community">
+    <div class="container-fluid">
+      <div class="row community-overlay">
+        <div class="col-md-12 community-header">
+          <h2>OUR WORK IS THE PRESENTAION OF<br> OUR CAPABILITIES</h2>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </div>
+        <div class="col-md-4 offset-md-2 community-one">
+          <h5>One of the best</h5>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        
+        <div class="col-md-4 offset-md-1 community-two">
+          <h5>One of the best</h5>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-md-3 offset-md-3"><img src="img/white.png" class="img-fluid white"></div>
+        <div class="col-md-3 offset-md-3"><img src="img/white.png" class="img-fluid white-two"></div>
+        <div class="col-md-3 offset-md-2 white-bottom"><img src="img/dav.png" class="img-fluid white-img"><p>James William</p></div>
+        <div class="col-md-3 offset-md-2 white-bottom-liam"><img src="img/sac.png" class="img-fluid white-img-two"><p>Liam Noah</p></div>
+       </div>
+      </div>
+  </section><!--------------------- Our Work End --------------------->
+
+  <!--------------------- Our Community slider Start --------------------->
+  <section id="community" class="slider">
+    <div class="container">
+      <div class="row">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/crowd.png" alt="" class="d-block" style="width:20%">
+              <img src="img/hk.png" alt="" class="d-block" style="width:20%">
+              <img src="img/money.png" alt="" class="d-block" style="width:20%">
+              <img src="img/rthk.png" alt="" class="d-block" style="width:20%">
+            </div>  
+            <div class="carousel-item">  
+              <img src="img/money.png" alt="" class="d-block" style="width:20%">
+              <img src="img/rthk.png" alt="" class="d-block" style="width:20%">
+              <img src="img/week.png" alt="" class="d-block" style="width:20%">
+              <img src="img/yahoo.png" alt="" class="d-block" style="width:20%">
+            </div>
+            <div class="carousel-item">  
+              <img src="img/money.png" alt="" class="d-block" style="width:20%">
+              <img src="img/rthk.png" alt="" class="d-block" style="width:20%">
+              <img src="img/week.png" alt="" class="d-block" style="width:20%">
+              <img src="img/yahoo.png" alt="" class="d-block" style="width:20%">
+            </div>
+          </div>
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section><!--------------------- Our Community slider  End --------------------->
+  <!------------------- Footer Section Start------------------>
+    <footer id="contact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 footer-content">
+          Fahima Alam ... 
+          <br><i>fahima.alam.11@gmail.com</i>
+        </div>
+      </div>
+    </div>
+    </footer><!-- Footer Section End-->
+
+    <!---------------- jQuery file ------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!---------------- Javascript --------------------->
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
